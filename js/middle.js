@@ -8,7 +8,8 @@
 
 const middle = (array) => {
   // Skriv din kod här
-  
+  const middleElement = Math.floor(array.length / 2);
+  return array[middleElement];
 }
 
 const result1 = middle(["1", "2", "3", "4", "5"]) // "3"

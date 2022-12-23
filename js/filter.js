@@ -8,7 +8,7 @@ const nastyFoods = ["Pannkakor", "Lingonsylt", "Fläsksvålar"];
 
 function noNastyFood(array) {
   // Skriv din kod här
-
+  return array.filter(foods => !nastyFoods.includes(foods));
 }
 
 const result = noNastyFood(["Korv", "Sylta", "Pannkakor", "Chips", "Lingonsylt"]);
